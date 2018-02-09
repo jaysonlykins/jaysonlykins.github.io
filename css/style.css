@@ -1,0 +1,12 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color: #0f414f;
+}
+header, footer {
+	background-color: #447684;
+}
+.contain {
+	background-color: #6b949F;
+}
