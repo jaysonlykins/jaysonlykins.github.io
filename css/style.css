@@ -8,5 +8,7 @@ header, footer {
 	background-color: #447684;
 }
 .contain {
+	width:600px;
+	margin: 0 auto;
 	background-color: #6b949F;
 }
