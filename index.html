@@ -3,35 +3,85 @@
 	<head>
 		<title>Jayson Lykins - Portfolio</title>
 		<link rel="Stylesheet" href="./css/style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <script src="./js/script.js"></script> 
 	</head>
 	<body>
 		<header>
-			<h1>Jayson Lykins</h1>
+			<div class="logo">
+				<div class="name">JPL</div>
+			</div>
+			<div id="side-line"></div>
+			<div id="title-box">
+			<div class="title">
+				Jayson Lykins
+			</div>
+			<div class="title" id="title-2">
+				Java Developer
+			</div>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#projects">Projects</a></li>
+					<li>|</li>
+					<li><a href="#edu">Education</a></li>
+					<li>|</li>
+					<li><a href="#about">About Me</a></li>
+				</ul>
+			</nav>
 		</header>
-		<section>
-		</section>
-		<section id="education">
-			<div class="contain">
-				<h3>Education</h3>
-				<ul>
-					<h4>Marshall University</h4>
-					<p>B.S. in Computer Science</p>
-				</ul>	
-			</div>
-		</section>
-		<section id="work-experience">
-			<div class="contain">
-				<h3>Relevant Work Experience</h3>
-			</div>
-		</section>
 		<section id="projects">
-			<div class="contain">
-				<h3>Projects</h3>
-			</div>
+			<h3>Projects</h3>
+					<h4>Cyber War Scenario - 2017</h4>
+					<p>This was a Capstone project intended to be a training application for students in the Cyber Security course at Marshall University. Scenarios are typical real world issues written as Bash shell Scripts. By utilizing a Linux distribution on a Virtual Machine, the students can create a snapshot of their workspace before starting on any scenario and have the option to roll back their OS in the event of critical error. Saving a user file on the host machine after each scenario allows the student to be graded on their work without having to redo any scenario.</p>
+					<p id="title-list">Features include:</p>
+					<ul>
+						<li>Admin Login to Grade Students and Add Custom Scenarios</li>
+						<li>Capable of Adding Many Self-Attacking Scenarios</li>
+						<li>List of example Scenarios</li>
+						<li>Currently Being Expanded for Network and Web Scenarios</li>
+					</ul>
+					<a href="https://s3.amazonaws.com/jpl-portfolio-media/login_screen.png"> 
+						<img class="shrink" src="https://s3.amazonaws.com/jpl-portfolio-media/login_screen.png" alt="login-screen">
+					</a>
+					<a href="https://s3.amazonaws.com/jpl-portfolio-media/upload_scenarios.png"> 
+						<img class="shrink" src="https://s3.amazonaws.com/jpl-portfolio-media/upload_scenarios.png" alt="upload-scenario">
+					</a>
+					<a href="https://s3.amazonaws.com/jpl-portfolio-media/scenario_player.png"> 
+						<img class="shrink" src="https://s3.amazonaws.com/jpl-portfolio-media/scenario_player.png" alt="run-scenario">
+					</a>
+		</section>
+		<section id="edu">
+			<h3>Education</h3>
+				<p>
+					B.S. in Computer Science from <a href="http://www.marshall.edu/cite/home/academic/divisions/computer-science-program/computer-science/">Marshall University.</a>
+				</p>
+				<p>
+				Languages used:
+					<ul>
+						<li>Java</li>
+						<li>Python</li>
+						<li>C#</li>
+						<li>HTML, CSS, & JavaScript</li>
+					</ul>
+				</p>
+		</section>
+		<section id="about">
+			<h3>About Me</h3>
+				<p> I am a java developer and a web programmer. When I am not drinking coffee and working from my laptop, I am making my wife laugh, teaching my two boys how to adventure, and drinking lots of coffee. 
+				</p>
 		</section>
 		<footer>
+			<div>
+				<a href="https://www.linkedin.com/in/jasonplykins/" class="fa fa-linkedin"></a>
+				<a href="https://twitter.com/theBrokenBeard" class="fa fa-twitter"></a>
+				<a href="https://github.com/jaysonlykins" class="fa fa-github"></a>
+			</div>
+			<div id="clearfix" class="footer-text">
 			<p>BrokenBeard Media, Copyright &copy; 2018</p>
 			<p>Hosted with GitHub Pages.</p>
+			</div>
 		</footer>
 	</body>
 </hmtl>
