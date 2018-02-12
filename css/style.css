@@ -1,14 +1,165 @@
-body{
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin:0;
-  background-color: #0f414f;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Merriweather Sans", sans-serif;
 }
-header, footer {
-	background-color: #447684;
+header {
+	margin: 0;
+	background: #4488da;
+	width: 100%;
+	height:150px;
+	}
+
+.logo {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	
 }
-.contain {
-	width:600px;
-	margin: 0 auto;
-	background-color: #6b949F;
+.name {
+	font-size: 45px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+#title-box{
+	padding-left: 15px;
+	float: left;
+}
+#side-line {
+	margin-top: 20px; 	
+	padding-left: 10px;
+	width: 5px;
+	height: 100px;
+	background: black;
+	float:left;
+}
+#clearfix {
+	content: "";
+    clear: both;
+    display: table;
+}
+ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline;
+}
+nav {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 24px:
+	height: 100px;
+	padding-left: 40px;
+	margin-right: 20px;
+	margin-top: 70px;
+	float: right;
+}
+.title{
+	margin-top: 30px;
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+#title-2{
+	margin-top:0px;
+	font-size:30px;
+	text-transform: lowercase;
+}
+section h3 {
+	text-align: center;
+	text-decoration: underline;
+	background: #c6c4c4;	
+	vertical-align: middle;
+	line-height: 40px;
+}
+section h4 {
+	text-align: center;
+}
+footer {
+	position:relative;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: #4488da;
+	font-family: "Merriweather Sans", sans-serif;
+	
+}
+footer p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.fa {
+	padding: 10px;
+	margin-right: 5px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+.footer-text {
+	margin: auto;
+	width: 50%;
+}
+section {
+	height: 500px;
+	/*background: #d8d8d9; */
+	margin: auto;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	width:75%;
+}
+section p {
+	padding: 10px;
+}
+section ul {
+	margin: auto;
+	list-style-type: circle;
+	margin-left: 50px;
+}
+#title-list{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left: 22px;
+}
+.shrink{
+	width: 25%;
+	height:auto;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+#edu{
+	height:200px;
+}
+#about{
+	height:200px;
 }
