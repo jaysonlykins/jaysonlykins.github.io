@@ -16,6 +16,21 @@ header {
 	float: left;
 	
 }
+#codepen{
+	margin: 10px;
+	
+}
+#codepen > a{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border: black 1px solid;
+	
+}
+#codepen > a:hover {
+	text-decoration: none;
+	
+}
 .name {
 	font-size: 45px;
 	font-family: 'Merriweather Sans', sans-serif;
